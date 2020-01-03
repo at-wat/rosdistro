@@ -14036,6 +14036,21 @@ repositories:
       url: https://bitbucket.org/DataspeedInc/sainsmart_relay_usb.git
       version: master
     status: maintained
+  sandbox2:
+    doc:
+      type: git
+      url: https://github.com/at-wat/sandbox2.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/at-wat/sandbox2-release.git
+      version: 0.0.0-0
+    source:
+      type: git
+      url: https://github.com/at-wat/sandbox2.git
+      version: master
+    status: developed
   sba_python:
     source:
       type: git
